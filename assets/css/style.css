@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+    background: 
+        linear-gradient(
+            rgba(3, 3, 3, 0.25),
+            rgba(3, 3, 3, 0.25)
+        ), 
+        url(../images/jack-anstey-383370-unsplash.jpg)
+        no-repeat center center fixed;
+    background-size: cover;
+}
+
+.jumbotron,
+.add-train,
+.current-train {
+    color: white;
+    background: 
+    linear-gradient(
+        rgba(3, 3, 3, 0.25),
+        rgba(3, 3, 3, 0.25)
+    );
+}
+
+.add-train {
+    padding-bottom: 30px;
+}
